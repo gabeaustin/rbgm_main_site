@@ -14,3 +14,9 @@
  *= require_self
  *= require bootstrap.min
  */
+
+/* This is so navbar doesn't overlap text*/
+body { 
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
