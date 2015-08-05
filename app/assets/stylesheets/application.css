@@ -20,11 +20,47 @@
 body { 
   padding-top: 70px;
   padding-bottom: 70px;
+  font-family: 'Lato', sans-serif;
 }
 
 #david-front-pg-img {
   height: 60%;
   width: 60%;
+}
+
+/* background image */
+.jumbotron {
+  background-image: url(/assets/logo/logo.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.05;
+  filter: alpha(opacity=5); /* For IE8 and earlier */
+}
+
+/* footer */
+
+
+.navbar-brand-bottom a:link, a:active, a:visited {
+  color: #fff;
+}
+
+.navbar-brand-bottom a:hover {
+  color: #FF3333;
+}
+
+.navbar-brand-bottom a:hover {
+  text-decoration: none;
+}
+
+.navbar-brand-bottom p {
+  padding-top: 0.1em;
 }
 
 /* Below is the code for normalize.css */
