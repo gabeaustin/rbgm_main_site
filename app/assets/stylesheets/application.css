@@ -20,7 +20,7 @@
 body { 
   padding-top: 70px;
   padding-bottom: 70px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #david-front-pg-img {
@@ -42,6 +42,20 @@ body {
   background-repeat: no-repeat;
   opacity: 0.05;
   filter: alpha(opacity=5); /* For IE8 and earlier */
+}
+
+.navbar-fixed-top {
+  padding-top: .1em;
+}
+
+.logo-img {
+  width: 15em;
+  height: 4em;
+}
+
+/* vertical line between divs */
+.content-left {
+  border-right: 1px solid #FF3333;
 }
 
 /* footer */
