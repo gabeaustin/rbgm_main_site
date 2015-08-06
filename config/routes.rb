@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   root 'welcome#index'
 
   resources :about
+  resources :staff
+  resources :contact
 end
