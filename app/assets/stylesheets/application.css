@@ -31,6 +31,21 @@ h1 {
   font-family: "Raleway", sans-serif;
 }
 
+.vertical-center {
+  min-height: 65%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 65vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.contact-icon, .contact-icon:active, .contact-icon:visited {
+  color: #d9534f;
+}
+
+.contact-icon:hover {
+  color: #999999;
+}
+
 #david-front-pg-img {
   height: 60%;
   width: 60%;
