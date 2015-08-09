@@ -55,6 +55,10 @@ h1 {
   height: 20%;
 }
 
+#bio-imgs {
+  height: 10%;
+}
+
 /* background image */
 .jumbotron {
   background-image: url(/assets/logo/logo.png);
