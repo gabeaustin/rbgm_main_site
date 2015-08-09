@@ -39,7 +39,8 @@ h1 {
 }
 
 .contact-icon, .contact-icon:active, .contact-icon:visited {
-  color: #d9534f;
+  color: #DE0023;
+  padding: 5%;
 }
 
 .contact-icon:hover {
@@ -47,8 +48,8 @@ h1 {
 }
 
 #david-front-pg-img {
-  height: 60%;
-  width: 60%;
+  height: 80%;
+  width: 80%;
 }
 
 #david-bio-img {
@@ -73,6 +74,7 @@ h1 {
   background-repeat: no-repeat;
   opacity: 0.05;
   filter: alpha(opacity=5); /* For IE8 and earlier */
+  z-index: -1;
 }
 
 .navbar-fixed-top {
@@ -89,15 +91,44 @@ h1 {
   border-right: 1px solid #FF3333;
 }
 
+/* text & img for welcome pg */
+#welcome-pg-text, #about-pg-text {
+  padding-top: 30px;
+}
+
+/* about pg text */
+p.about-pg-text-info, p.welcome-pg-text-info,
+p.contact-pg-text-info {
+  line-height: 165%;
+  font-size: 1.3em;
+}
+
+/* bio pg text */
+p.bio-pg-text-info {
+  line-height: 130%;
+  font-size: 1.1em;
+}
+
+/* staff pg txt */
+p.staff-pg-text-info {
+  line-height: 130%;
+  font-size: 1.3em;
+}
+
+h1.about-pg-title, h2.welcome-pg-title, 
+h3.welcome-pg-heading, h1.about-pg-heading, 
+h1.bio-pg-heading, h1.staff-pg-heading,
+h3.contact-pg-heading {
+  color: #DE0023;
+}
+
 /* footer */
-
-
 .navbar-brand-bottom a:link, a:active, a:visited {
   color: #fff;
 }
 
 .navbar-brand-bottom a:hover {
-  color: #FF3333;
+  color: #DE0023;
 }
 
 .navbar-brand-bottom a:hover {
