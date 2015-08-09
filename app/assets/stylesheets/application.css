@@ -51,6 +51,10 @@ h1 {
   width: 60%;
 }
 
+#david-bio-img {
+  height: 20%;
+}
+
 /* background image */
 .jumbotron {
   background-image: url(/assets/logo/logo.png);

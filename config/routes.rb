@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   resources :about
   resources :staff
   resources :contact
+  resources :bio
 end
