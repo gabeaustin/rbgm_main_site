@@ -52,8 +52,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #david-front-pg-img {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
+}
+
+.front-pg-container {
+  height: 100%;
+  width: 100%;
 }
 
 #david-bio-img {
