@@ -92,8 +92,8 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .logo-img {
-  width: 15em;
-  height: 4em;
+  width: 5em;
+  height: 2em;
 }
 
 /* vertical line between divs */
@@ -128,7 +128,8 @@ p.staff-pg-text-info {
 h1.about-pg-title, h2.welcome-pg-title, 
 h3.welcome-pg-heading, h1.about-pg-heading, 
 h1.bio-pg-heading, h1.staff-pg-heading,
-h3.contact-pg-heading, p.welcome-pg-title {
+h3.contact-pg-heading, p.welcome-pg-title,
+h1.logo-pg-heading {
   color: #DE0023;
 }
 
