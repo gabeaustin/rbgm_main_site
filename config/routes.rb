@@ -6,10 +6,7 @@ Rails.application.routes.draw do
   resources :about
   # resources :staff
 
-  resources :alexander
-  resources :davis
-  resources :kelley
-  resources :webb
+  resources :alexander, :davis, :kelley, :webb
 
 
   # resources :staff do
