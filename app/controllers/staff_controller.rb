@@ -14,7 +14,4 @@ class StaffController < ApplicationController
   def webb
   end
 
-  def show
-  end
-
 end

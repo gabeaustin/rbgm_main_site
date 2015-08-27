@@ -77,7 +77,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 #bio-imgs {
-  height: 10%;
+  width: 100%;
 }
 
 /* background image */
@@ -178,6 +178,11 @@ h1.logo-pg-heading {
   .jumbotron {
     display: none;
   }
+
+  #bio-imgs {
+    margin: 0 auto;
+    width: 50%;
+  }
 }
 
 /** Tablet **/
@@ -192,6 +197,11 @@ h1.logo-pg-heading {
 
   .jumbotron {
     display: none;
+  }
+
+  #bio-imgs {
+    margin: 0 auto;
+    width: 50%;
   }
 }
 

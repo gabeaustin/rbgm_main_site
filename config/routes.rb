@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   get 'welcome/index'
 
-  # get "/staff/:page" => "staff#show"
-
   root 'welcome#index'
 
   resources :about
@@ -14,12 +12,16 @@ Rails.application.routes.draw do
   resources :webb
 
 
-  namespace :staff do
-    resources :alexander
-    resources :davis
-    resources :kelley
-    resources :webb
-  end
+  # resources :staff do
+  #   resources :alexander
+  #   resources :davis
+  #   resources :kelley
+  #   resources :webb
+  # end
+
+  # scope module: 'staff' do
+  #   resources :alexander
+  # end
 
   resources :contact
   resources :bio
