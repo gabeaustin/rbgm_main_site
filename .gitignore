@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Keeps slug size low
+*.psd
+*.pdf
+/test
+/spec
+/features
+/doc
+/public
