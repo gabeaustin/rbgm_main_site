@@ -23,3 +23,5 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 gem 'faker'
+# gem 'gmaps4rails'
+# gem 'underscore-rails'
