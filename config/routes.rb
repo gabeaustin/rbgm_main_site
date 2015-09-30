@@ -21,5 +21,8 @@ Rails.application.routes.draw do
   # end
 
   resources :contact
+
+  resources :giving
+  
   resources :bio
 end
