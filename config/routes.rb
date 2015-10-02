@@ -3,7 +3,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
 
-  resources :about
+  # resources :about
   # resources :staff
 
   resources :covenant, :mission, :online, :statement
