@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   # resources :about
   # resources :staff
 
-  resources :covenant, :mission, :online, :statement
+  resources :covenant, :mission, :online, :statement, :tcw
 
   resources :alexander, :davis, :kelley, :webb
 
