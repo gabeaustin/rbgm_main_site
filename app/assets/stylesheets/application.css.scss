@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .contact-icon, .contact-icon:active, .contact-icon:visited {
   color: #DE0023;
-  padding: 5%;
+  padding: 4%;
 }
 
 .contact-icon:hover {
@@ -78,6 +78,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 .wednesdays a:hover, a:visited, a:link, a:active{
   text-decoration: none !important;
+}
+
+.social-media {
+  padding-bottom: 5%;
 }
 
 /* background image */
@@ -187,6 +191,10 @@ h1.logo-pg-heading {
   .wednesdays {
     padding: 5%;
   }
+
+  .contact-icon {
+    padding: 3%;
+  }
 }
 
 /** Tablet **/
@@ -210,6 +218,10 @@ h1.logo-pg-heading {
 
   .wednesdays {
     padding: 5%;
+  }
+
+  .contact-icon {
+    padding: 3%;
   }
 }
 
