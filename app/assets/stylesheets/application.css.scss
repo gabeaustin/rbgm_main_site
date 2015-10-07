@@ -74,7 +74,6 @@ h1, h2, h3, h4, h5, h6, p {
 .wednesdays {
   color: #DE0023;
   padding-bottom: 6%;
-  border: 1px solid #ddd;
 }
 
 .wednesdays a:hover, a:visited, a:link, a:active{
@@ -184,6 +183,10 @@ h1.logo-pg-heading {
     margin: 0 auto;
     width: 50%;
   }
+
+  .wednesdays {
+    padding: 5%;
+  }
 }
 
 /** Tablet **/
@@ -203,6 +206,10 @@ h1.logo-pg-heading {
   #bio-imgs {
     margin: 0 auto;
     width: 50%;
+  }
+
+  .wednesdays {
+    padding: 5%;
   }
 }
 
