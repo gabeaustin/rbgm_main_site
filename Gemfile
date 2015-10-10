@@ -2,7 +2,14 @@ source 'https://rubygems.org'
 ruby '2.1.2'
 
 gem 'rails', '~> 4.1.6'
-gem 'pg', '~> 0.17.1'
+
+group :production do
+  gem 'pg', '~> 0.17.1'
+end
+
+group :development do
+  gem 'sqlite3'
+end
 
 gem 'turbolinks', '~> 2.2.1'
 gem 'jquery-rails', '~> 3.1.0'
@@ -19,8 +26,8 @@ gem 'therubyracer', platform: :ruby
 gem 'jbuilder', '~> 2.0'
 gem 'font-awesome-rails'
 gem 'rails_12factor'
-gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
+gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'spring', group: :development
 
 gem 'faker'
 # gem 'gmaps4rails'
