@@ -1,7 +1,5 @@
 *.psd
 *.pdf
-*.jpg
-*.png
 /test
 /spec
 /features
