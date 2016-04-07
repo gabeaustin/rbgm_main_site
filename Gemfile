@@ -3,14 +3,14 @@ ruby '2.1.2'
 
 gem 'rails', '~> 4.1.6'
 
-group :production do
-  gem 'pg', '~> 0.17.1'
-end
+# group :production do
+#   gem 'pg', '~> 0.17.1'
+# end
 
-group :development do
-  gem 'sqlite3'
-end
-
+# group :development do
+#   gem 'sqlite3'
+# end
+gem 'pg'
 gem 'turbolinks', '~> 2.2.1'
 gem 'jquery-rails', '~> 3.1.0'
 gem 'jquery-ui-sass-rails', '~> 4.0.3.0'
