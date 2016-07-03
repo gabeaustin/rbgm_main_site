@@ -13,9 +13,34 @@
 //= require jquery
 //= require jquery.ui.all
 //= require jquery_ujs
+//= require spin
+//= require jquery.spin
 //= require bootstrap
 //= require bootstrap-sprockets
 
+
+/*******************
+  * JS Spinner
+*******************/
+
+$(".abc").spin(); // Shows the default spinner
+// $(".abc").spin(false); // Hide the spinner
+
+// Show customised spinner:
+$(".abc").spin({
+  lines: 12, // The number of lines to draw
+  length: 7, // The length of each line
+  width: 9, // The line thickness
+  radius: 30, // The radius of the inner circle
+  color: '#000', // #rgb or #rrggbb
+  speed: 1, // Rounds per second
+  trail: 60, // Afterglow percentage
+  shadow: false // Whether to render a shadow
+});
+
+// Use customisation shortcuts:
+$("#el").spin("small"); // Produces a 'small' Spinner using the text color of #el.
+// $("#el").spin("large", "white"); // Produces a 'large' Spinner in white (or any valid CSS color).
 
 
 /*******************

@@ -7,6 +7,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+/* This is the alert notice below the navbar */
+.assistance-alert {
+  margin-top: -1.5%;
+  text-align: center;
+}
+
 /* This is so navbar doesn't overlap text*/
 body {
   padding-top: 70px;
@@ -139,8 +145,8 @@ p.staff-pg-text-info {
   font-size: 1.3em;
 }
 
-h1.about-pg-title, h2.welcome-pg-title, 
-h3.welcome-pg-heading, h1.about-pg-heading, 
+h1.about-pg-title, h2.welcome-pg-title,
+h3.welcome-pg-heading, h1.about-pg-heading,
 h1.bio-pg-heading, h1.staff-pg-heading,
 h3.contact-pg-heading, p.welcome-pg-title,
 h1.logo-pg-heading {
