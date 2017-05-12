@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'bailey/index'
+
   get 'welcome/index'
 
   root 'welcome#index'
@@ -8,7 +10,7 @@ Rails.application.routes.draw do
 
   resources :covenant, :mission, :online, :statement, :tcw
 
-  resources :alexander, :davis, :kelley, :webb
+  resources :alexander, :bailey, :davis, :kelley, :webb
 
 
   # resources :staff do
@@ -25,6 +27,6 @@ Rails.application.routes.draw do
   resources :contact
 
   resources :giving
-  
+
   resources :bio
 end
