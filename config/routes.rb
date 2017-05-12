@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'bailey/index'
+  # get 'bailey/index'
 
   get 'welcome/index'
 
